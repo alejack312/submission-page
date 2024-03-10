@@ -1,32 +1,226 @@
-  <!-- TO RUN IN BROWSER:
+<!-- TO RUN IN BROWSER:
     1. Install vscode extension Name: open in `browser open-in-browser` by TechER
     2. Right click html file and either run in default browser or another browser
   -->
-
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML/CSS Studio</title>
+    <title>Responsive Redesign</title>
     <!-- import CSS styles -->
-    <link rel="stylesheet" href="styles.css" /> 
+    <link rel="stylesheet" href="styles.css" />
   </head>
 
   <!-- page content goes into <body> -->
   <body>
-    <div id="logoBar">
-      <h1>Welcome to 100 Acre Wood!</h1>
-      <img id="siteLogo" alt="Pooh-bear site logo" src="./assets/Header.png"/>
-      <h3>We're glad you're here :D</h3>
-    </div>
-    <hr/>
-    <div id="staffGallery">
-      <img class="galleryImage" src="./assets/Eeyore-Eh.png"/>
-      <img class="galleryImage" src="./assets/Eeyore-Zz.png"/>
-      <img class="galleryImage" src="./assets/Kanga-Roo.png"/>
-      <img class="galleryImage" src="./assets/Owl-Phone.png"/>
+    <div class="main-column">
+      <div class="content">
+        <header class="page-heading">
+          <h1 class="title">Responsive Redesign</h1>
+
+          <nav class="menu">
+            <ul>
+              <li><a href="#part-one">Part 1: Identifying Usability Problems</a></li>
+              <li><a href="#part-two">Part 2: Visual Redesign</a></li>
+              <li><a href="#part-three">Part 3: Responsive Redesign</a></li>
+
+            </ul>
+          </nav>
+        </header>
+
+        
+
+        <div class="intro">
+          <div class="self-descrip">
+            <h2 class="subheading" id="part-one">
+              Part 1: Identifying Usability Problems
+            </h2>
+            <p class="inner-text">
+              In this part, you will be picking one page of a website to analyze
+              based on usability and accessibility standards. Then, you will
+              redesign and build the redesigned version of this webpage.
+            </p>
+
+            <h3 id="pick-webpage">Picking a Webpage</h3>
+            <div class="image">
+              <img
+                src="assets\Opera Snapshot_2024-03-10_012237_www.effectivetogreat.com.png"
+                alt="Photo of the original homepage"
+              />
+            </div>
+
+            <div class="image">
+              <img
+                src="assets\Opera Snapshot_2024-03-10_012336_www.effectivetogreat.com.png"
+                alt="Photo of the 'About us' section on the original homepage"
+              />
+            </div>
+
+            <div class="image">
+              <img
+                src="assets\Opera Snapshot_2024-03-10_012422_www.effectivetogreat.com.png"
+                alt="Photo of the 'Blog' section on the original homepage"
+              />
+            </div>
+
+            <p class="inner-text">
+              Website:
+              <a href="https://www.effectivetogreat.com">
+                Effective to Great Education
+              </a>
+            </p>
+            <p class="inner-text">
+              I chose this website because it is one I worked on—through Wix—for
+              a Careers in the Common Good Winternship. Given Wix’s limits, I
+              would like to envision a redesign for the site that I find more
+              intuitive and appealing. Furthermore, it is the site for a startup
+              with a good mission, which matters to me.
+            </p>
+          </div>
+        </div>
+
+        <div class="proj-list" id="part-two">
+          <h2 class="subheading">Part 2: Visual Redesign</h2>
+
+          <h3 id="about-me">Speed Sketching</h3>
+          <div class="image">
+            <img src="assets\IMG_1839.JPG" alt="Photo of 9 speed sketches" />
+          </div>
+
+          <h3 id="about-me">Final Sketch</h3>
+          <div id="odd-image" class="image">
+            <img src="assets\IMG_1840.JPG" alt="Photo of the final sketch" />
+          </div>
+          <h3 id="about-me">Low-fidelity Wireframing</h3>
+
+          <div class="image">
+            <img
+              src="assets\Opera Snapshot_2024-03-10_013216_www.figma.com.png"
+              alt="Photo of a low-fidelity computer wireframe of the new 
+              homepage"
+            />
+          </div>
+
+          <div class="image">
+            <img
+              src="assets\Opera Snapshot_2024-03-10_013348_www.figma.com.png"
+              alt="Photo of a low-fidelity iPad wireframe of the new 
+              homepage"
+            />
+          </div>
+
+          <div class="image">
+            <img
+              src="assets\Opera Snapshot_2024-03-10_013401_www.figma.com.png"
+              alt="Photo of a low-fidelity iPhone wireframe of the new 
+              homepage"
+            />
+          </div>
+
+          <p class="inner-text">
+            In the desktop and tablet wireframes, the site maintains a
+            content-based conceptual model and the linearity of navigation. With
+            that being said, the site is more modular and contains some more
+            dynamic and interactive divs so that the site sticks in users minds.
+            This wireframe is not colored, so there is still room for contrast
+            errors depending on the color scheme. In a more high-fidelity
+            wireframe, we can take this into consideration. In the mobile
+            wireframe, the site maintains a content-based conceptual model and
+            is very linear since phones are taller than they are wide. At the
+            bottom, there is a button that opens up an overlay which contains
+            some additional information that would likely bore users if it was
+            the first thing they saw.
+          </p>
+          <h3 id="about-me">Visual Design Style Guide</h3>
+
+          <div class="image">
+            <img
+              src="assets\Opera Snapshot_2024-03-10_013652_www.figma.com.png"
+              alt="Photo of the visual design style guide for the new homepage"
+            />
+          </div>
+
+          <h3 id="about-me">High-fidelity Mockup</h3>
+
+          <div class="image">
+            <img
+              src="assets\Opera Snapshot_2024-03-10_014513_www.figma.com.png"
+              alt="Photo of a high-fidelity computer wireframe of the new 
+              homepage"
+            />
+          </div>
+
+          <div class="image">
+            <img
+              src="assets\Opera Snapshot_2024-03-10_014229_www.figma.com.png"
+              alt="Photo of a high-fidelity iPad wireframe of the new 
+                homepage"
+            />
+          </div>
+
+          <div class="image">
+            <img
+              src="assets\Opera Snapshot_2024-03-10_013844_www.figma.com.png"
+              alt="Photo of a high-fidelity iPhone wireframe of the new 
+                homepage"
+            />
+          </div>
+
+          <div class="proj">
+            <div class="proj-links">
+              <a
+                href="https://www.figma.com/file/7PpAGRLfOELxht0SKQWx0R/Wireframing
+              -(Copy)?type=design&node-id=867190%3A1292&mode=design&t=0nT2gZ9KAS
+              hgSBxm-1"
+                >Figma Workspace</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="others" id="part-three">
+          <h2 class="subheading">Part 3: Responsive Redesign</h2>
+
+          <br />
+
+          <a href="https://alejack312.github.io/responsive-redesign/">
+            Deployed Site
+          </a>
+
+          <p class="inner-text">
+            When designing this website, I sought to make it more modular and 
+            responsive to resizing. I achieved this using a combination of 
+            relative units, flexbox, and CSS grid, which all help to create a 
+            layout that adapts to different screen sizes. The new homepage 
+            consists of three components: the sidebar, the promotional video, 
+            and a dynamic navigation carousel.
+
+            Upon opening the site, the sidebar is collapsed. Pressing the menu 
+            button should expand the menu to display the 'About' section and the
+            'Become a Member!' section. The 'About' section has an image and 
+            another carousel that displays information about the startup.
+
+            Shrinking the screen down to the size of a phone changes the layout.
+            The promotional video is located at the top, then the navigation 
+            carousel, and lastly, the 'Become a Member!' section. The expandable
+            menu is now located at the foot of the page, and toggling the expand 
+            arrow opens up the 'About' section with its image and the carousel.
+
+            While this code is responsive, it might not be fully optimized for 
+            all screen sizes. Given it being my first forray into responsive 
+            redesign with just HTML and CSS, there are things about the site 
+            that I would like to fix, like the white border around the body of 
+            the page.
+
+            Given more time, I would really polish the site to make it 
+            attractive and I would change the homepage—on the desktop/laptop and 
+            iPad versions—to have the sidebar expanded upon initial load.
+          </p>
+
+          <br />
+        </div>
+      </div>
     </div>
   </body>
-
 </html>
